@@ -6,6 +6,7 @@
 </template>
 
 <script setup>
+  //ref es para trabajar con componentes reactivos
   import { ref } from "vue";
 
   const contador = ref(0);
